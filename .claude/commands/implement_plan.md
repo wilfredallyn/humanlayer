@@ -28,6 +28,14 @@ Plans are carefully designed, but reality can be messy. Your job is to:
 
 When things don't match the plan exactly, think about why and communicate clearly. The plan is your guide, but your judgment matters too.
 
+## Test-Driven Implementation
+
+Write failing tests before implementing code:
+- Read the success criteria and write tests that verify them
+- Run tests to confirm they fail for the right reasons
+- Implement the minimum code to make tests pass
+- Refactor if needed while keeping tests green
+
 If you encounter a mismatch:
 - STOP and think deeply about why the plan can't be followed
 - Present the issue clearly:
